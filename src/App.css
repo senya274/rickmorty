@@ -230,7 +230,7 @@
 }
 
 /* mobile layout--------------------------------------------------------------- */
-@media screen and (min-width: 320px) and (max-width:1029px) {
+@media screen and (min-width: 320px) and (max-width:769px) {
 
   .results {
     display: flex;
@@ -238,7 +238,6 @@
     justify-content: center;
     align-items: center;
   }
-
   .image {
     width: 312px;
     height: 104px;
@@ -402,4 +401,36 @@
 .logout-button:hover{
   background: rgb(235, 194, 63);
   transition: all 0.1s ease-in;
+}
+
+@media screen and (min-width: 320px) and (max-width:1023px) {
+
+.results {
+  display: grid;
+   align-items: center;
+   grid-template-columns: repeat(3, 1fr);
+ }
+}
+
+@media screen and (min-width: 320px) and (max-width:770px) {
+
+
+  .results {
+    display: grid;
+     align-items: center;
+     justify-content: center;
+     grid-template-columns: repeat(2, 1fr);
+     grid-gap: 0;
+   }
+  
+}
+
+@media screen and (min-width: 320px) and (max-width:666px) {
+  .results {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
 }
