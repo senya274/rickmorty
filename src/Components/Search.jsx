@@ -3,6 +3,7 @@ import React from "react";
 function Search({ filter, value, setFilter = [] }) {
   return (
     <div className="search">
+      
       <input
         className="input"
         type="text"
