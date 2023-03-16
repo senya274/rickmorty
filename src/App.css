@@ -157,7 +157,7 @@
 
 
 .back {
-  position: absolute;
+  
   font-weight: 700;
   font-size: 18px;
   top: 23px;
@@ -331,7 +331,7 @@
   }
 
   .character-about-text {
-    margin-left: 24px;
+    
   }
 
   .character-about-text h2 {
@@ -355,9 +355,9 @@
     background: url(/public/arrow_back_24px.svg);
 
   }
-  .sign-out{
-    display: none;
-  }
+  
+  
+  
 }
 
 /*----------------------------- login ------------------------------- */
@@ -386,17 +386,18 @@
 
 
 .sign-out{
-  position: absolute;
-  right: 8%;
-  top: 3.5%;
-  transform: translate(-50%, -50%);
-  text-align: center;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+
 }
 
 .logout-button{
   width: 200px;
   height: 30px;
   border-radius: 5px;
+  margin-bottom: 30px;
 }
 .logout-button:hover{
   background: rgb(235, 194, 63);
@@ -408,6 +409,7 @@
 .results {
   display: grid;
    align-items: center;
+   justify-items: center;
    grid-template-columns: repeat(3, 1fr);
  }
 }
@@ -419,9 +421,11 @@
     display: grid;
      align-items: center;
      justify-content: center;
+     justify-items: center;
      grid-template-columns: repeat(2, 1fr);
      grid-gap: 0;
    }
+   
   
 }
 
@@ -431,6 +435,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    justify-items: center;
   }
+  
   
 }

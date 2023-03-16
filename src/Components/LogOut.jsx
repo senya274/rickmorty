@@ -13,8 +13,8 @@ function LogOut() {
   console.log(context.user);
   return (
     <div className="sign-out">
-      Signed as {context.user?.email}
-      <br></br>
+      <p>Signed as {context.user?.email}</p>
+      
       <button className="logout-button" onClick={logOut}>
         LogOut
       </button>
