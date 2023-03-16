@@ -332,10 +332,11 @@
     line-height: 24px;
     letter-spacing: 0.15px;
     color: #8E8E93;
+    text-align: left;
   }
 
   .character-about-text {
-    
+    margin-left: 24px;
   }
 
   .character-about-text h2 {
@@ -441,6 +442,5 @@ margin: 0 auto;
     align-items: center;
     justify-items: center;
   }
-  
-  
+ 
 }
