@@ -37,6 +37,7 @@ const CharacterInfo = () => {
         GO BACK
       </Link>
       <div className="character-wrapper">
+        
         <div className="character-info">
           <img
             className="info-image"

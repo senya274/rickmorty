@@ -124,6 +124,7 @@
   color: #081F32;
   margin: 0;
   margin-top: 16px;
+  text-align: center;
 }
 
 .character-wrapper h2 {
@@ -390,7 +391,7 @@
  flex-direction: column;
  justify-content: center;
  align-items: center;
-
+margin: 0 auto;
 }
 
 .logout-button{
